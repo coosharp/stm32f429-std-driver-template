@@ -53,9 +53,9 @@
           <OutputName>template</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>1</BrowseInformation>
+          <BrowseInformation>0</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F429_439xx,</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\code\libraries\CMSIS\Include;..\..\code\libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\code\libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\code\bsp</IncludePath>
+              <IncludePath>..\..\code\libraries\CMSIS\Include;..\..\code\libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\code\libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\code\bsp;..\..\code\common\utils;..\..\code\common\mm</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

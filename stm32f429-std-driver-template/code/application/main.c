@@ -1,8 +1,13 @@
-
+#include "bsp.h"
+#include "delay.h"
+#include "debug.h"
+#include "mm.h"
 
 
 int main(void)
 {
-    return 0;
+    bsp_init();
+    debug_init(bsp_debug_putc);
+    for(;;);
 }
 
