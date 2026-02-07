@@ -61,9 +61,11 @@ void UsageFault_Handler(void)
   * @note  If you are using FreeRTOS, 
   *        this function is typically taken over by the OS and should be commented out.
   */
+#if 0
 void SVC_Handler(void)
 {
 }
+#endif
 
 /**
   * @brief This function handles Debug monitor.
@@ -77,9 +79,11 @@ void DebugMon_Handler(void)
   * @note  If you are using FreeRTOS, 
   *        this function is typically taken over by the OS and should be commented out.
   */
+#if 0
 void PendSV_Handler(void)
 {
 }
+#endif
 
 /**
   * @brief This function handles System tick timer.

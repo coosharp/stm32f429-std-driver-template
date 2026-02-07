@@ -1,13 +1,19 @@
-#include "bsp.h"
-#include "delay.h"
-#include "debug.h"
-#include "mm.h"
-
-
+/**
+ * @file main.c
+ *
+ */
+ 
+/**********************
+ *   GLOBAL FUNCTIONS
+ **********************/ 
 int main(void)
 {
-    bsp_init();
-    debug_init(bsp_debug_putc);
+
     for(;;);
 }
+
+
+/******************************* (END OF FILE) *********************************/
+
+
 
