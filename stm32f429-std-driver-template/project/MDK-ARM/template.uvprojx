@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F429_439xx,</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\code\libraries\CMSIS\Include;..\..\code\libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\code\libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\code\middlewares\FreeRTOS\include;..\..\code\middlewares\FreeRTOS\portable\RVDS\ARM_CM4F</IncludePath>
+              <IncludePath>..\..\code\libraries\CMSIS\Include;..\..\code\libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\code\libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\code\core;..\..\code\bsp;..\..\code\middlewares\FreeRTOS\include;..\..\code\middlewares\FreeRTOS\portable\RVDS\ARM_CM4F</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -444,6 +444,26 @@
               <FileName>port.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\code\middlewares\FreeRTOS\portable\RVDS\ARM_CM4F\port.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Bsp</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\code\bsp\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_debug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\code\bsp\bsp_debug.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\code\bsp\bsp_led.c</FilePath>
             </File>
           </Files>
         </Group>

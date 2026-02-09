@@ -7,6 +7,7 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
+#include <stdio.h>
 #include "stm32f4xx.h"
 
 /* Private function prototypes -----------------------------------------------*/
@@ -29,6 +30,7 @@ void NMI_Handler(void)
   */
 void HardFault_Handler(void)
 {
+    printf("HardFault_Handler\r\n");
     for(;;);
 }
 
@@ -91,7 +93,7 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-
+    HAL_SysTick_Callback();
 }
 
 /******************************************************************************/

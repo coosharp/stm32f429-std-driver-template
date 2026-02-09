@@ -15,12 +15,10 @@ extern "C" {
  *      INCLUDES
  *********************/
 #include <stdint.h>
-#include <stdbool.h>
 /**********************
 *  GLOBAL PROTOTYPES
  **********************/
-bool delay_init(void);
-void delay_us(uint32_t num);
+void delay_init(void);
 void delay_ms(uint32_t num);
 void delay_sec(uint32_t num);
  
